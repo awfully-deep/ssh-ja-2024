@@ -1,17 +1,66 @@
 {
-	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-app"
-		}
-	}],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8",
-		"app-plus": {
-			"background": "#efeff4"
-		}
-	}
+  "pages": [{
+      "path": "pages/home/home",
+      "style": {
+
+
+      }
+    },
+    {
+      "path": "pages/message/message",
+      "style": {
+
+      }
+    },
+    {
+      "path": "pages/order/order",
+      "style": {
+
+      }
+    },
+    {
+      "path": "pages/user/user",
+      "style": {
+
+
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "花椒服务",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#FFFFFF",
+    "app-plus": {
+      "background": "#d4e4ff"
+    }
+  },
+  "tabBar": {
+    "selectedColor": "#C00000",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/static/tab_icons/home.png",
+        "selectedIconPath": "/static/tab_icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "/static/tab_icons/message.png",
+        "selectedIconPath": "/static/tab_icons/message-active.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "委托",
+        "iconPath": "/static/tab_icons/order.png",
+        "selectedIconPath": "/static/tab_icons/order-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "/static/tab_icons/user.png",
+        "selectedIconPath": "/static/tab_icons/user-active.png"
+      }
+    ]
+  }
 }
